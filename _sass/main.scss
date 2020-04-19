@@ -1,3 +1,47 @@
+@font-face {
+  font-family: 'Kisba';
+  src: url('../fonts/Kisba-Regular/font.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Kisba-Regular/font.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Flink';
+  src: url('../fonts/Flink/normal_normal_normal.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Flink/normal_normal_normal.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+body {
+  background-color: #4a525a;
+  max-width: 650px;
+  margin: auto;
+  color: #eee;
+}
+
+#header {
+  margin-top: 50px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 300px 1fr;
+}
+
+nav {
+  a {
+    margin: 1rem;
+  }
+}
+
 .current {
   color: green;
+}
+
+p {
+  margin-left: 25px;
+}
+
+h2 {
+  font-family: 'Kisba', serif;
+}
+
+h3, p {
+  font-family: 'Flink', sans-serif;
 }

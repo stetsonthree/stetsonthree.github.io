@@ -9,17 +9,17 @@ defaults:
       path: ""
       type: "authors"
     values:
-      layout: "author"
+      layout: "default"
   - scope:
       path: ""
       type: "partners"
     values:
-      layout: "partner"
+      layout: "default"
   - scope:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "default"
   - scope:
       path: ""
     values:
