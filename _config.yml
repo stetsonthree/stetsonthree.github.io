@@ -24,6 +24,11 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: "abstruse"
+    values:
+      layout: "default"
+
       
 plugins:
   - jekyll-feed
